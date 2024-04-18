@@ -1,18 +1,18 @@
 :root {
   --bg-color: #000028;
-  --main-color: #FF0070;
-  --title-color: #DB00FF;
-  --shadow-color: #FF0070;
-  --accent-color: #FF0070;
+  --main-color: #ff0070;
+  --title-color: #db00ff;
+  --shadow-color: #ff0070;
+  --accent-color: #ff0070;
   --subtitle-color: #000028;
-  --text-color: #F1B2CE;
-  --section-title-color: #FF0070;
-  --link-color: #FF0070;
+  --text-color: #f1b2ce;
+  --section-title-color: #ff0070;
+  --link-color: #ff0070;
   --corner-top: url(../images/corner-top-dark_theme.svg);
   --corner-bottom: url(../images/corner-bottom-dark_theme.svg);
-  --font-family: "IBM Plex Mono";
+  --font-family: 'IBM Plex Mono';
   --bg-image: url(../images/cover-image-dark.png);
-  --interactive-color: #FF99C6;
+  --interactive-color: #ff99c6;
 }
 
 @media (width > 768px) {
@@ -32,7 +32,7 @@
     top: 20px;
     right: 48px;
   }
-  
+
   .decoration::after {
     margin-inline-start: 10px;
     top: 8px;
@@ -56,15 +56,11 @@
     display: grid;
   }
 
-  .header__description {
-    width: 50%;
-  }
-
   .decorated-zone::before {
     top: 20px;
     right: 20px;
   }
-  
+
   .decorated-zone::after {
     bottom: 20px;
     left: 20px;
@@ -88,7 +84,6 @@
 }
 
 @media (width <= 768px) {
-
   .header {
     padding: 20px;
   }
@@ -105,7 +100,7 @@
     top: 20px;
     right: 48px;
   }
-  
+
   .decoration::after {
     margin-inline-start: 10px;
     top: 8px;
@@ -115,7 +110,7 @@
     top: 20px;
     right: 20px;
   }
-  
+
   .decorated-zone::after {
     bottom: 20px;
     left: 20px;
@@ -156,7 +151,7 @@
   .triggers {
     display: block;
   }
-  
+
   .column__advice {
     margin-inline-start: 14px;
   }
@@ -178,7 +173,6 @@
   }
 }
 
-
 @media (width <= 500px) {
   .header {
     padding: 10px;
@@ -189,14 +183,14 @@
   }
 
   .title {
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem)
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .decoration {
     top: 10px;
     right: 38px;
   }
-  
+
   .decoration::after {
     margin-inline-start: 10px;
     top: 8px;
@@ -206,7 +200,7 @@
     top: 10px;
     right: 10px;
   }
-  
+
   .decorated-zone::after {
     bottom: 10px;
     left: 10px;
@@ -227,7 +221,7 @@
   }
 
   .column__advice {
-    margin-inline-start: 0; 
+    margin-inline-start: 0;
   }
 
   .gallery {

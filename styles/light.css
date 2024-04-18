@@ -1,49 +1,49 @@
 .page.theme_light {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --main-color: #353430;
-  --title-color: #FFC2E6;
-  --shadow-color: #FF0070;
-  --accent-color: #FF8DCB;
+  --title-color: #ffc2e6;
+  --shadow-color: #ff0070;
+  --accent-color: #ff8dcb;
   --subtitle-color: #353430;
   --text-color: #353430;
   --section-title-color: #353430;
-  --link-color: #FF8DCB;
+  --link-color: #ff8dcb;
   --corner-top: url(../images/corner-top-light_theme.svg);
   --corner-bottom: url(../images/corner-bottom-light_theme.svg);
   --bg-image: url(../images/cover-image-light.png);
-  --interactive-color: #ADADAB;
+  --interactive-color: #adadab;
 }
 
 :root.theme_light {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --main-color: #353430;
-  --title-color: #FFC2E6;
-  --shadow-color: #FF0070;
-  --accent-color: #FF8DCB;
+  --title-color: #ffc2e6;
+  --shadow-color: #ff0070;
+  --accent-color: #ff8dcb;
   --subtitle-color: #353430;
   --text-color: #353430;
   --section-title-color: #353430;
-  --link-color: #FF8DCB;
+  --link-color: #ff8dcb;
   --corner-top: url(../images/corner-top-light_theme.svg);
   --corner-bottom: url(../images/corner-bottom-light_theme.svg);
   --bg-image: url(../images/cover-image-light.png);
-  --interactive-color: #ADADAB;
+  --interactive-color: #adadab;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #FFF1F7;
-  --main-color: #353430;
-  --title-color: #FFC2E6;
-  --shadow-color: #FF0070;
-  --accent-color: #FF8DCB;
-  --subtitle-color: #353430;
-  --text-color: #353430;
-  --section-title-color: #353430;
-  --link-color: #FF8DCB;
-  --corner-top: url(../images/corner-top-light_theme.svg);
-  --corner-bottom: url(../images/corner-bottom-light_theme.svg);
-  --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --main-color: #353430;
+    --title-color: #ffc2e6;
+    --shadow-color: #ff0070;
+    --accent-color: #ff8dcb;
+    --subtitle-color: #353430;
+    --text-color: #353430;
+    --section-title-color: #353430;
+    --link-color: #ff8dcb;
+    --corner-top: url(../images/corner-top-light_theme.svg);
+    --corner-bottom: url(../images/corner-bottom-light_theme.svg);
+    --bg-image: url(../images/cover-image-light.png);
   }
 }
 
