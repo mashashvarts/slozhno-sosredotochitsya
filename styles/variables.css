@@ -1,4 +1,248 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-color: #000028;
+  --main-color: #FF0070;
+  --title-color: #DB00FF;
+  --shadow-color: #FF0070;
+  --accent-color: #FF0070;
+  --subtitle-color: #000028;
+  --text-color: #F1B2CE;
+  --section-title-color: #FF0070;
+  --link-color: #FF0070;
+  --corner-top: url(../images/corner-top-dark_theme.svg);
+  --corner-bottom: url(../images/corner-bottom-dark_theme.svg);
+  --font-family: "IBM Plex Mono";
+  --bg-image: url(../images/cover-image-dark.png);
+  --interactive-color: #FF99C6;
+}
+
+@media (width > 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .title__header {
+    margin-inline-start: -20px;
+  }
+
+  .title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .decoration {
+    top: 20px;
+    right: 48px;
+  }
+  
+  .decoration::after {
+    margin-inline-start: 10px;
+    top: 8px;
+  }
+
+  .header__theme-menu-list {
+    gap: 25px;
+  }
+
+  .header__description {
+    width: 50%;
+  }
+
+  .section {
+    display: grid;
+    padding: 60px 20px 20px 20px;
+    gap: 0 20px;
+  }
+
+  .triggers {
+    display: grid;
+  }
+
+  .header__description {
+    width: 50%;
+  }
+
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+  
+  .decorated-zone::after {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .gallery {
+    padding: 60px 20px;
+  }
+
+  .image__container {
+    display: grid;
+  }
+
+  .gallery .sub-title__section {
+    margin-block-end: 20px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+}
+
+@media (width <= 768px) {
+
+  .header {
+    padding: 20px;
+  }
+
+  .title__header {
+    margin-inline-start: -20px;
+  }
+
+  .title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .decoration {
+    top: 20px;
+    right: 48px;
+  }
+  
+  .decoration::after {
+    margin-inline-start: 10px;
+    top: 8px;
+  }
+
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+  
+  .decorated-zone::after {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header__theme-menu {
+    justify-self: flex-end;
+    align-self: center;
+    padding-inline-end: 8px;
+  }
+
+  .header__description {
+    width: 50%;
+  }
+
+  .section {
+    padding: 60px 20px 20px 20px;
+  }
+
+  .title__section {
+    max-width: 236px;
+  }
+
+  .reasons {
+    display: grid;
+    gap: 43px;
+  }
+
+  .advice {
+    display: grid;
+  }
+
+  .triggers {
+    display: block;
+  }
+  
+  .column__advice {
+    margin-inline-start: 14px;
+  }
+
+  .gallery {
+    padding: 60px 20px;
+  }
+
+  .image__container {
+    display: grid;
+  }
+
+  .gallery .sub-title__section {
+    margin-block-end: 20px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+}
+
+
+@media (width <= 500px) {
+  .header {
+    padding: 10px;
+  }
+
+  .title__header {
+    margin-inline-start: 0;
+  }
+
+  .title {
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem)
+  }
+
+  .decoration {
+    top: 10px;
+    right: 38px;
+  }
+  
+  .decoration::after {
+    margin-inline-start: 10px;
+    top: 8px;
+  }
+
+  .decorated-zone::before {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .decorated-zone::after {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .header__description {
+    width: 100%;
+  }
+
+  .section {
+    display: block;
+    padding: 40px 10px 10px 10px;
+  }
+
+  .title__section {
+    max-width: 355px;
+    padding-block-end: 20px;
+  }
+
+  .column__advice {
+    margin-inline-start: 0; 
+  }
+
+  .gallery {
+    padding: 40px 10px 30px 10px;
+  }
+
+  .image__container {
+    display: block;
+  }
+
+  .gallery .sub-title__section {
+    margin-block-end: 10px;
+  }
+
+  .image {
+    padding-block-end: 5px;
+  }
+}
