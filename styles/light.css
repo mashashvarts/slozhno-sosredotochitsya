@@ -44,7 +44,14 @@
     --corner-top: url(../images/corner-top-light_theme.svg);
     --corner-bottom: url(../images/corner-bottom-light_theme.svg);
     --bg-image: url(../images/cover-image-light.png);
+    --interactive-color: #adadab;
   }
+
+  .theme_auto .decoration {
+    display: none;
+  }
+
+  
 }
 
 .theme_light .decoration {

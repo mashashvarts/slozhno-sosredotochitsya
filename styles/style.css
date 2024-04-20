@@ -37,14 +37,17 @@
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--interactive-color);
-  padding: 3px 12px;
-  margin: -2px -7px;
+  inline-size: 70px;
+  margin: 0px -8px;
+  block-size: 26px;
+  padding-block-end: 5px;
 }
 
 .header__theme-menu-button:focus-visible {
   border-block-end: 1px solid var(--main-color);
-  padding: 0 31px;
-  margin: 0 -25px;
+  inline-size: 70px;
+  margin: 0px -8px;
+  padding-block-end: 5px;
   outline: none;
 }
 
@@ -55,8 +58,10 @@
 .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--main-color);
-  padding: 3px 12px;
-  margin: -2px -7px;
+  inline-size: 70px;
+  margin: 0px -8px;
+  block-size: 26px;
+  padding-block-end: 5px;
 }
 
 .decoration {
