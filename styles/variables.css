@@ -12,6 +12,6 @@
   --corner-bottom: url(../images/corner-bottom-dark_theme.svg);
   --font-family: 'IBM Plex Mono';
   --bg-image: url(../images/cover-image-dark.png);
-  --interactive-color: #ff99c6;
+  --interactive-color:  rgba(255, 0, 112, 0.4);
 }
 
